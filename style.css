@@ -1,0 +1,239 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    transition: .5s;
+}
+.back{
+    margin-top: 30vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height:100%;
+    background: rgb(36, 36, 36);
+}
+.top{
+    position: relative;
+    background: rgb(166, 70, 224);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:30vh;
+    top: 10vh;
+    border-radius: 20px;
+    color:#FFFFFF;
+}
+.top h1{
+    top: -20vh;
+    position: relative;
+    font-size: 36px;
+    line-height: 43.57px;
+
+}
+.top p{
+    top: -20vh;
+    position: relative;
+    font-size: 15px;
+    font-size: 24px;
+    line-height: 29.05px;;
+}
+.top input{
+    top: -10vh;
+    position: relative;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+.top button{
+    top: -10vh;
+    position: relative;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-left: -150px;
+    background: rgb(166, 70, 224);
+    color: #FFFFFF;
+    align-items: center;
+}
+.top button:hover{
+    background: rgb(124, 54, 167);
+
+}
+.links{
+    padding-top: 20vh;
+    position: relative;
+    color: #FFFFFF;
+}
+.link ul{
+    display: flex;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 10vh;
+   
+}
+.left{
+    position: relative;
+    left: -30px;
+}
+.left i{
+    float: left;
+    list-style: none;
+    position:absolute;
+    font-size: 24px;
+    Line-height:29.05px;
+    display: flex;
+    padding: 10px;
+    
+}
+.left i li{
+    font-size: 24px;
+    Line-height:29.05px;
+    padding-left: 5px;
+    
+}
+.right{
+    position: relative;
+    float: right;
+    list-style: none;
+    top: -5px;
+    
+}
+.right a{
+    font-size: 24px;
+    Line-height:29.05px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px;
+}
+.right i:hover{
+    color: rgb(166, 70, 224);;
+}
+.right li i{
+    font-size: 24px;
+}
+pre{
+    top: 20vh;
+    position: relative;
+    color: #e2dfdf
+}
+hr{
+    position: relative;
+    top: 20vh;
+    color: #e2dfdf
+}
+.footer h2{
+    padding-top: 25vh;
+    color: #ebebeb;
+    position: relative;
+    float: left;
+    font-size: 24px;
+    line-height: 29.05px;
+}
+.footer-right{
+    position: relative;
+    padding-top: 24vh;
+    float: right;
+}
+.footer-right button{
+    width: 165px;
+    height: 47px;
+    background: rgb(166, 70, 224);
+    border-radius: 9px;
+    border: none;
+    color: #ffff;
+    align-items: center;
+}
+.footer-right button:hover{
+    background: rgb(124, 54, 167);
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+@media screen and (max-width:996px) {
+    *{
+        font-size: 15px;
+    }
+    .top h1{
+        font-size:20px;
+    }
+    .top p{
+        font-size: 15px;
+    }
+    .left i{
+        font-size: 20px;
+    }
+    .left i li{
+        font-size: 20px;
+    }
+    .right li i{
+        font-size: 20px;
+    }
+    .right li i a{
+        font-size: 20px;
+    }
+    .footer-right{
+        padding-top: 25vh;
+    }
+    .footer h2{
+        font-size: 15px;
+    }
+    .footer-right button{
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:476px) {
+    *{
+        font-size: 15px;
+    }
+    .top h1{
+        font-size:18px;
+    }
+    .top p{
+        font-size: 12px;
+    }
+    .left i{
+        font-size: 15px;
+    }
+    .left i li{
+        font-size: 15px;
+    }
+    .right li i a{
+        font-size: 15px;
+    }
+    .footer h2{
+        font-size: 12px;
+    }
+    .top input{
+        width: 300px;
+        height: 40px;
+        font-size: 10px;
+    }
+    .top button{
+        width: 120px;
+        height: 30px;
+        margin-left: -130px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .footer h2{
+        font-size: 10px;
+    }
+    .top input{
+        width: 270px;
+        height: 40px;
+        font-size: 10px;
+    }
+    pre{
+        font-size: 8px;
+    }
+}
